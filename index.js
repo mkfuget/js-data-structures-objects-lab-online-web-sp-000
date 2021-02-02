@@ -2,7 +2,7 @@
 function updateDriverWithKeyAndValue(driver, key, value)
 {
   let hash = {
-    kay: value
+    key: value
   }
   out = Object.assign(driver, hash)
   return driver
