@@ -1,13 +1,14 @@
 // Write your solution in this file!
 function updateDriverWithKeyAndValue(driver, key, value)
 {
-  const hash = {}
-  hash[key] = value
+  const newObj = { ...obj };
+  newObj[key] = value;
 
-  out = Object.assign(driver, hash)
-  return out
+  return newObj
 }
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
 {
+  const newObj = { ...obj };
+  newObj[key]
   return driver[key] = value;
 }
