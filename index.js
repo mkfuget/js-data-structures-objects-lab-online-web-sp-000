@@ -3,7 +3,7 @@ function updateDriverWithKeyAndValue(driver, key, value)
 {
   const hash = {}
   hash[key] = value
-  
+
   out = Object.assign(driver, hash)
   return out
 }
