@@ -4,5 +4,6 @@ function updateDriverWithKeyAndValue(driver, key, value)
   let hash = {
     kay: value
   }
-  return Object.assign(driver, hash)
+  driver Object.assign(driver, hash)
+  return driver
 }
